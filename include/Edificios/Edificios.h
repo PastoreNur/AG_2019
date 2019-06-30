@@ -1,0 +1,14 @@
+//
+// Created by nur on 06-30-19.
+//
+
+#ifndef CAMARA_BASICA_EDIFICIOS_H
+#define CAMARA_BASICA_EDIFICIOS_H
+
+void e_suelo();
+void e_callep();
+void e_parqueo1();
+void e_calleparqueo1();
+void e_acera1();
+
+#endif //CAMARA_BASICA_EDIFICIOS_H

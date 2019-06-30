@@ -6,27 +6,18 @@
 #include <SOIL/SOIL.h>
 #include <stdlib.h>
 #include <math.h>
+#include "include/Edificios/Edificios.h"
+#include "include/Fisicas/Fisicas.h"
 
-GLuint texture[0];
+
 // variables que representan direccion de la camara
-float lx=0.0f,lz=-1.0f;
+float lx=1.0f,lz=0.0f;
 // XZ posicion de la camara
-float x=0.0f,z=5.0f;
+float x=-100.0f,z=0.0f;
 
 // angulo de rotación
-float angulo = 0.0f;
+float angulo = 90.0f;
 
-void gramita()
-{
-    glColor3f(1.0f, 1.0f, 1.0f);
-    // Dibujamos el triangulo
-    glTranslatef(0.0f ,0.75f, 0.0f);
-    glRotatef (-90,10.0,0.1,0.0);
-    glutSolidCone(1, 2, 20, 20);
-    glPushMatrix();
-    glPopMatrix();
-    glColor3f(1.0f, 1.0f , 1.0f);
-}
 
 void camara(int w, int h)
 {
@@ -35,7 +26,7 @@ void camara(int w, int h)
 // (No permitir una ventana de alto 0).
     if (h == 0)
         h = 1;
-    float proporcion = w * 1.0 / h;
+    float proporcion = w * 1.0 / h*2;
 
 // Usando Matrix proyección
     glMatrixMode(GL_PROJECTION);
@@ -64,33 +55,25 @@ void escena(void)
                   x+lx, 1.0f, z+lz,
                   0.0f, 1.0f, 0.0f);
 
-    // Aplicando textura
 
-    texture[0] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
-            (
-                    "../grama.jpg",
-                    SOIL_LOAD_AUTO,
-                    SOIL_CREATE_NEW_ID,
-                    SOIL_FLAG_MIPMAPS | SOIL_FLAG_INVERT_Y | SOIL_FLAG_NTSC_SAFE_RGB | SOIL_FLAG_COMPRESS_TO_DXT
-            );
-    //glColor3f(0.9f, 0.9f, 0.9f);
-    glBindTexture(GL_TEXTURE_2D, texture[0]);
-    glTexEnvi(GL_TEXTURE_ENV,GL_TEXTURE_ENV_MODE,GL_COMBINE);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_WRAP_S,GL_REPEAT);
-    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_WRAP_T,GL_REPEAT);
+//######################################################
+//######################################################
+//######################################################
+//######################################################
+//######################################################
+//INPLEMENTACIOS DE EDIFICIOS
+    e_suelo();
+    e_callep();
+    e_parqueo1();
+    e_calleparqueo1();
+    e_acera1();
+//######################################################
+//######################################################
+//######################################################
+//######################################################
+//######################################################
+//INPLEMENTACIOS DE FISICAS
 
-    glBegin(GL_QUADS);
-    glTexCoord2f(0.0f, 0.0f);
-    glVertex3f(-100.0f, 0.0f, -100.0f);
-    glTexCoord2f(1.0f, 0.0f);
-    glVertex3f(-100.0f, 0.0f, 100.0f);
-    glTexCoord2f(0.0f, 1.0f);
-    glVertex3f( 100.0f, 0.0f, 100.0f);
-    glTexCoord2f(1.0f, 1.0f);
-    glVertex3f( 100.0f, 0.0f, -100.0f);
-    glEnd();
 
 
     glutSwapBuffers();

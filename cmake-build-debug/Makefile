@@ -123,6 +123,60 @@ camara_basica/fast:
 	$(MAKE) -f CMakeFiles/camara_basica.dir/build.make CMakeFiles/camara_basica.dir/build
 .PHONY : camara_basica/fast
 
+include/Edificios/Edificios.o: include/Edificios/Edificios.cpp.o
+
+.PHONY : include/Edificios/Edificios.o
+
+# target to build an object file
+include/Edificios/Edificios.cpp.o:
+	$(MAKE) -f CMakeFiles/camara_basica.dir/build.make CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.o
+.PHONY : include/Edificios/Edificios.cpp.o
+
+include/Edificios/Edificios.i: include/Edificios/Edificios.cpp.i
+
+.PHONY : include/Edificios/Edificios.i
+
+# target to preprocess a source file
+include/Edificios/Edificios.cpp.i:
+	$(MAKE) -f CMakeFiles/camara_basica.dir/build.make CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.i
+.PHONY : include/Edificios/Edificios.cpp.i
+
+include/Edificios/Edificios.s: include/Edificios/Edificios.cpp.s
+
+.PHONY : include/Edificios/Edificios.s
+
+# target to generate assembly for a file
+include/Edificios/Edificios.cpp.s:
+	$(MAKE) -f CMakeFiles/camara_basica.dir/build.make CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.s
+.PHONY : include/Edificios/Edificios.cpp.s
+
+include/Fisicas/Fisicas.o: include/Fisicas/Fisicas.cpp.o
+
+.PHONY : include/Fisicas/Fisicas.o
+
+# target to build an object file
+include/Fisicas/Fisicas.cpp.o:
+	$(MAKE) -f CMakeFiles/camara_basica.dir/build.make CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.o
+.PHONY : include/Fisicas/Fisicas.cpp.o
+
+include/Fisicas/Fisicas.i: include/Fisicas/Fisicas.cpp.i
+
+.PHONY : include/Fisicas/Fisicas.i
+
+# target to preprocess a source file
+include/Fisicas/Fisicas.cpp.i:
+	$(MAKE) -f CMakeFiles/camara_basica.dir/build.make CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.i
+.PHONY : include/Fisicas/Fisicas.cpp.i
+
+include/Fisicas/Fisicas.s: include/Fisicas/Fisicas.cpp.s
+
+.PHONY : include/Fisicas/Fisicas.s
+
+# target to generate assembly for a file
+include/Fisicas/Fisicas.cpp.s:
+	$(MAKE) -f CMakeFiles/camara_basica.dir/build.make CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.s
+.PHONY : include/Fisicas/Fisicas.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... camara_basica"
 	@echo "... edit_cache"
+	@echo "... include/Edificios/Edificios.o"
+	@echo "... include/Edificios/Edificios.i"
+	@echo "... include/Edificios/Edificios.s"
+	@echo "... include/Fisicas/Fisicas.o"
+	@echo "... include/Fisicas/Fisicas.i"
+	@echo "... include/Fisicas/Fisicas.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

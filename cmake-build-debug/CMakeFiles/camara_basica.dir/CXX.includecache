@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/nur/Descargas/AG_2019/main.cpp
+/home/nur/Descargas/AG_2019/include/Edificios/Edificios.cpp
+Edificios.h
+/home/nur/Descargas/AG_2019/include/Edificios/Edificios.h
 GL/gl.h
 -
 GL/glu.h
@@ -19,4 +21,6 @@ stdlib.h
 -
 math.h
 -
+
+/home/nur/Descargas/AG_2019/include/Edificios/Edificios.h
 

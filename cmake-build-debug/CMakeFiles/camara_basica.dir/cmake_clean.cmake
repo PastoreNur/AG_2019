@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/camara_basica.dir/main.cpp.o"
+  "CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.o"
+  "CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.o"
   "camara_basica.pdb"
   "camara_basica"
 )

@@ -88,6 +88,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/nur/Descargas/AG_2019/include/Edificios/Edificios.cpp">
+			<Option target="camara_basica"/>
+		</Unit>
+		<Unit filename="/home/nur/Descargas/AG_2019/include/Edificios/Edificios.h">
+			<Option target="camara_basica"/>
+		</Unit>
+		<Unit filename="/home/nur/Descargas/AG_2019/include/Fisicas/Fisicas.cpp">
+			<Option target="camara_basica"/>
+		</Unit>
+		<Unit filename="/home/nur/Descargas/AG_2019/include/Fisicas/Fisicas.h">
+			<Option target="camara_basica"/>
+		</Unit>
 		<Unit filename="/home/nur/Descargas/AG_2019/main.cpp">
 			<Option target="camara_basica"/>
 		</Unit>

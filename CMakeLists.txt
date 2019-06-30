@@ -27,10 +27,13 @@ include_directories(${GLM_INCLUDE_DIRS})
 include_directories(/usr/include/SOIL)
 link_directories(/usr/lib/SOIL)
 
+
+
+
 #########################################################
 # Incluyendo archivos
 #########################################################
-add_executable(camara_basica main.cpp) # Agregando nombre del script y compilado
+add_executable(camara_basica main.cpp include/Edificios/Edificios.cpp include/Edificios/Edificios.h include/Fisicas/Fisicas.cpp include/Fisicas/Fisicas.h) # Agregando nombre del script y compilado
 
 #########################
 # Linkeo de librerías
