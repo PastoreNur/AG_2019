@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/camara_basica.dir/main.cpp.o  -o camara_basica 
