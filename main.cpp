@@ -67,6 +67,12 @@ void escena(void)
     e_parqueo1();
     e_calleparqueo1();
     e_acera1();
+    e_acera2();
+    e_suelop();
+    e_acerapp();
+    e_calleparqueo2();
+    e_parqueo2();
+    e_suelos();
 //######################################################
 //######################################################
 //######################################################
@@ -87,16 +93,16 @@ void salir(unsigned char key, int x, int y)
 
 void keyboard(int key, int xx, int yy)
 {
-    float fraccion = 0.1f;
+    float fraccion = 0.5f;
 
     switch (key) {
         case GLUT_KEY_LEFT :
-            angulo -= 0.01f;
+            angulo -= 0.1f;
             lx = sin(angulo);
             lz = -cos(angulo);
             break;
         case GLUT_KEY_RIGHT :
-            angulo += 0.01f;
+            angulo += 0.1f;
             lx = sin(angulo);
             lz = -cos(angulo);
             break;
