@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/camara_basica.dir/main.cpp.o  -o camara_basica 
+/usr/bin/c++  -g  -rdynamic CMakeFiles/camara_basica.dir/main.cpp.o  -o camara_basica  -L/usr/lib/SOIL -Wl,-rpath,/usr/lib/SOIL -lGL -lGLU -lglut -lXi -lSOIL 

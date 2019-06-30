@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nur/Descargas/AG_2019/main.cpp
+GL/gl.h
+-
+GL/glu.h
+-
+GL/glut.h
+-
+SOIL/SOIL.h
+-
+stdlib.h
+-
+math.h
+-
+
