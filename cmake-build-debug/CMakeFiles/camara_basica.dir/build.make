@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2019.1.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/sonivox/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2019.1.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/sonivox/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/miguel/Escritorio/AG_2019
+CMAKE_SOURCE_DIR = /home/sonivox/Plantillas/AG_2019
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/miguel/Escritorio/AG_2019/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sonivox/Plantillas/AG_2019/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/camara_basica.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/camara_basica.dir/flags.make
 
 CMakeFiles/camara_basica.dir/main.cpp.o: CMakeFiles/camara_basica.dir/flags.make
 CMakeFiles/camara_basica.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/miguel/Escritorio/AG_2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/camara_basica.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/camara_basica.dir/main.cpp.o -c /home/miguel/Escritorio/AG_2019/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sonivox/Plantillas/AG_2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/camara_basica.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/camara_basica.dir/main.cpp.o -c /home/sonivox/Plantillas/AG_2019/main.cpp
 
 CMakeFiles/camara_basica.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/camara_basica.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/miguel/Escritorio/AG_2019/main.cpp > CMakeFiles/camara_basica.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sonivox/Plantillas/AG_2019/main.cpp > CMakeFiles/camara_basica.dir/main.cpp.i
 
 CMakeFiles/camara_basica.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/camara_basica.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/miguel/Escritorio/AG_2019/main.cpp -o CMakeFiles/camara_basica.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sonivox/Plantillas/AG_2019/main.cpp -o CMakeFiles/camara_basica.dir/main.cpp.s
 
 CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.o: CMakeFiles/camara_basica.dir/flags.make
 CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.o: ../include/Edificios/Edificios.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/miguel/Escritorio/AG_2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.o -c /home/miguel/Escritorio/AG_2019/include/Edificios/Edificios.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sonivox/Plantillas/AG_2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.o -c /home/sonivox/Plantillas/AG_2019/include/Edificios/Edificios.cpp
 
 CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/miguel/Escritorio/AG_2019/include/Edificios/Edificios.cpp > CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sonivox/Plantillas/AG_2019/include/Edificios/Edificios.cpp > CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.i
 
 CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/miguel/Escritorio/AG_2019/include/Edificios/Edificios.cpp -o CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sonivox/Plantillas/AG_2019/include/Edificios/Edificios.cpp -o CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.s
 
 CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.o: CMakeFiles/camara_basica.dir/flags.make
 CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.o: ../include/Fisicas/Fisicas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/miguel/Escritorio/AG_2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.o -c /home/miguel/Escritorio/AG_2019/include/Fisicas/Fisicas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sonivox/Plantillas/AG_2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.o -c /home/sonivox/Plantillas/AG_2019/include/Fisicas/Fisicas.cpp
 
 CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/miguel/Escritorio/AG_2019/include/Fisicas/Fisicas.cpp > CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sonivox/Plantillas/AG_2019/include/Fisicas/Fisicas.cpp > CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.i
 
 CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/miguel/Escritorio/AG_2019/include/Fisicas/Fisicas.cpp -o CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sonivox/Plantillas/AG_2019/include/Fisicas/Fisicas.cpp -o CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.s
 
 # Object files for target camara_basica
 camara_basica_OBJECTS = \
@@ -109,12 +109,14 @@ camara_basica: CMakeFiles/camara_basica.dir/main.cpp.o
 camara_basica: CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.o
 camara_basica: CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.o
 camara_basica: CMakeFiles/camara_basica.dir/build.make
-camara_basica: /usr/lib/x86_64-linux-gnu/libGL.so
+camara_basica: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+camara_basica: /usr/lib/x86_64-linux-gnu/libGLX.so
 camara_basica: /usr/lib/x86_64-linux-gnu/libGLU.so
 camara_basica: /usr/lib/x86_64-linux-gnu/libglut.so
 camara_basica: /usr/lib/x86_64-linux-gnu/libXi.so
+camara_basica: /usr/lib/x86_64-linux-gnu/libGLEW.so
 camara_basica: CMakeFiles/camara_basica.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/miguel/Escritorio/AG_2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable camara_basica"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sonivox/Plantillas/AG_2019/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable camara_basica"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/camara_basica.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +129,6 @@ CMakeFiles/camara_basica.dir/clean:
 .PHONY : CMakeFiles/camara_basica.dir/clean
 
 CMakeFiles/camara_basica.dir/depend:
-	cd /home/miguel/Escritorio/AG_2019/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/miguel/Escritorio/AG_2019 /home/miguel/Escritorio/AG_2019 /home/miguel/Escritorio/AG_2019/cmake-build-debug /home/miguel/Escritorio/AG_2019/cmake-build-debug /home/miguel/Escritorio/AG_2019/cmake-build-debug/CMakeFiles/camara_basica.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sonivox/Plantillas/AG_2019/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sonivox/Plantillas/AG_2019 /home/sonivox/Plantillas/AG_2019 /home/sonivox/Plantillas/AG_2019/cmake-build-debug /home/sonivox/Plantillas/AG_2019/cmake-build-debug /home/sonivox/Plantillas/AG_2019/cmake-build-debug/CMakeFiles/camara_basica.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/camara_basica.dir/depend
 

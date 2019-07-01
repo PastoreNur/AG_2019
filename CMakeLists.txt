@@ -1,24 +1,31 @@
-cmake_minimum_required(VERSION 2.8) #Versión mínima de cmake
+cmake_minimum_required(VERSION 3.13) #Versión mínima de cmake
 # Project Name
 PROJECT(camara_basica)
 
-#########################################################
-# INCLUYENDO LIBRERIA GLUT
-#########################################################
-find_package(GLUT REQUIRED) #buscar la libreria GlUT
-include_directories(${GLUT_INCLUDE_DIRS}) # incluir los directorios
-link_directories(${GLUT_LIBRARY_DIRS}) #Linkeo de directorios
-add_definitions(${GLUT_DEFINITIONS}) #Agregar las definiciones
-#########################################################
-# INCLUYENDO LIBRERIA OPENGL
-#########################################################
+# adding GLUT library
+find_package(GLUT REQUIRED) # searching GLUT package
+include_directories(${GLUT_INCLUDE_DIRS}) # add GLUT directories
+link_directories(${GLUT_LIBRARY_DIRS}) # link GLUT directories
+add_definitions(${GLUT_DEFINITIONS}) #A adding definitions
+
+
+# adding OpenGL library
 find_package(OpenGL REQUIRED)
 include_directories(${OpenGL_INCLUDE_DIRS})
 link_directories(${OpenGL_LIBRARY_DIRS})
 add_definitions(${OpenGL_DEFINITIONS})
+
+# adding OpenGL library
+find_package(GLEW REQUIRED)
+include_directories(${GLEW_INCLUDE_DIRS})
+link_directories(${GLEW_LIBRARY_DIRS})
+add_definitions(${GLEW_DEFINITIONS})
+
 #######################################################
 # INCLUYENDO LIBRERIA SOIL
 #########################################################
+link_directories(/usr/lib)
+include_directories(/usr/include/)
 
 include_directories(${GLFW_INCLUDE_DIRS})
 include_directories(${GLEW_INCLUDE_DIRS})
@@ -27,7 +34,11 @@ include_directories(${GLM_INCLUDE_DIRS})
 include_directories(/usr/include/SOIL)
 link_directories(/usr/lib/SOIL)
 
-
+#######################################################
+# INCLUYENDO LIBRERIA LSD
+#########################################################
+find_package(SDL2 REQUIRED)
+include_directories(${SDL2_INCLUDE_DIRS})
 
 
 #########################################################
@@ -39,4 +50,4 @@ add_executable(camara_basica main.cpp include/Edificios/Edificios.cpp include/Ed
 # Linkeo de librerías
 #########################################################
 # creación del ejecutable "hello"
-target_link_libraries(camara_basica ${OPENGL_LIBRARY} ${GLUT_LIBRARY} ${GLFW_STATIC_LIBRARIES} ${GLEW_LIBRARIES} SOIL)
+target_link_libraries(camara_basica ${SDL2_LIBRARIES} ${OPENGL_LIBRARY} ${GLUT_LIBRARY} ${GLFW_STATIC_LIBRARIES} ${GLEW_LIBRARIES} SOIL)

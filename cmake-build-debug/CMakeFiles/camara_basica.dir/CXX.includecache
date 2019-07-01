@@ -6,21 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/miguel/Escritorio/AG_2019/include/Edificios/Edificios.cpp
-Edificios.h
-/home/miguel/Escritorio/AG_2019/include/Edificios/Edificios.h
-GL/gl.h
--
-GL/glu.h
--
-GL/glut.h
--
-SOIL/SOIL.h
+/home/sonivox/Plantillas/AG_2019/include/Edificios/Edificios.h
+
+/home/sonivox/Plantillas/AG_2019/include/Fisicas/Fisicas.h
+
+/home/sonivox/Plantillas/AG_2019/main.cpp
+iostream
 -
 stdlib.h
 -
+stdio.h
+-
+string.h
+-
+GL/glew.h
+-
+GL/freeglut.h
+-
+SOIL/SOIL.h
+-
+SDL2/SDL.h
+-
 math.h
 -
-
-/home/miguel/Escritorio/AG_2019/include/Edificios/Edificios.h
+include/Edificios/Edificios.h
+/home/sonivox/Plantillas/AG_2019/include/Edificios/Edificios.h
+include/Fisicas/Fisicas.h
+/home/sonivox/Plantillas/AG_2019/include/Fisicas/Fisicas.h
 

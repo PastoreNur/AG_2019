@@ -17,4 +17,6 @@ void e_calleparqueo2();
 void e_parqueo2();
 void e_suelos();
 
+void edificio1();
+
 #endif //CAMARA_BASICA_EDIFICIOS_H

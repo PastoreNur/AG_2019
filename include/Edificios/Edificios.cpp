@@ -88,14 +88,10 @@ void e_parqueo1(){
     glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_WRAP_T,GL_REPEAT);
 
     glBegin(GL_QUADS);
-    glTexCoord2f(0.0f, 0.0f);
-    glVertex3f(-80.0f, 0.0001f, -15.0f);
-    glTexCoord2f(1.0f, 0.0f);
-    glVertex3f(-80.0f, 0.0001f, -40.0f);
-    glTexCoord2f(0.0f, 1.0f);
-    glVertex3f( -30.0f, 0.0001f, -40.0f);
-    glTexCoord2f(1.0f, 1.0f);
-    glVertex3f( -30.0f, 0.0001f, -15.0f);
+    glTexCoord2f(0.0f, 0.0f);glVertex3f(-80.0f, 0.0001f, -15.0f);
+    glTexCoord2f(1.0f, 0.0f);glVertex3f(-80.0f, 0.0001f, -40.0f);
+    glTexCoord2f(0.0f, 1.0f);glVertex3f( -30.0f, 0.0001f, -40.0f);
+    glTexCoord2f(1.0f, 1.0f);glVertex3f( -30.0f, 0.0001f, -15.0f);
     glEnd();
 
 }
@@ -319,13 +315,58 @@ void e_suelos(){
     glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_WRAP_T,GL_REPEAT);
 
     glBegin(GL_QUADS);
-    glTexCoord2f(0.0f, 0.0f);
-    glVertex3f(150.0f, 0.001f, -15.0f);
-    glTexCoord2f(1.0f, 0.0f);
-    glVertex3f(150.0f, 0.001f, -50.0f);
-    glTexCoord2f(0.0f, 1.0f);
-    glVertex3f( 200.0f, 0.001f, -50.0f);
-    glTexCoord2f(1.0f, 1.0f);
-    glVertex3f( 200.0f, 0.001f, -15.0f);
+    glTexCoord2f(0.0f, 0.0f);glVertex3f(150.0f, 0.001f, -15.0f);
+    glTexCoord2f(1.0f, 0.0f);glVertex3f(150.0f, 0.001f, -50.0f);
+    glTexCoord2f(0.0f, 1.0f);glVertex3f( 200.0f, 0.001f, -50.0f);
+    glTexCoord2f(1.0f, 1.0f);glVertex3f( 200.0f, 0.001f, -15.0f);
+    glEnd();
+}
+
+void edificio1(){
+    /*paredT[0] = SOIL_load_OGL_texture // cargamos la imagen
+            (
+                    "pared.bmp",
+                    SOIL_LOAD_AUTO,
+                    SOIL_CREATE_NEW_ID,
+                    SOIL_FLAG_MIPMAPS | SOIL_FLAG_INVERT_Y | SOIL_FLAG_NTSC_SAFE_RGB | SOIL_FLAG_COMPRESS_TO_DXT
+            ); */
+    glEnable(GL_TEXTURE_2D);
+    //glBindTexture(GL_TEXTURE_2D, paredT[0]);
+    //parametros
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
+
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
+    //pared
+
+    //glutSolidSphere(50,100,100);
+
+    glColor3f(1,1,1);
+    glBegin(GL_QUADS);
+    //pared abajo
+    glTexCoord2f(0.0f, 0.0f);glVertex3f(-10.0f, 0.0f, -10.0f);
+    glTexCoord2f(1.0f, 0.0f);glVertex3f(-10.0f, 0.0f, 10.0f);
+    glTexCoord2f(0.0f, 1.0f);glVertex3f(-20.0f, 0.0f, 10.0f);
+    glTexCoord2f(1.0f, 1.0f);glVertex3f(-20.0f, 0.0f, -10.0f);
+
+    //pared enfrente
+    glTexCoord2f(1,0); glVertex3f(-20.0, -00.0, 0.0);
+    glTexCoord2f(1,1); glVertex3f(-20.0, -00.0, 10.0);
+    glTexCoord2f(0,1); glVertex3f(-20.0, 10.0, 10.0);
+    glTexCoord2f(0,0); glVertex3f(-20.0, 10.0, 00.0);
+    //pared izquierda
+    /*glTexCoord2f(1,1); glVertex3f(200.0, -200.0, 100.0);
+    glTexCoord2f(0,1); glVertex3f(-200.0, -200.0, 100.0);
+    glTexCoord2f(0,0); glVertex3f(-200.0, -200.0, 0.0);
+    glTexCoord2f(1,0); glVertex3f(200.0, -200.0, 0.0);
+    //pared derecha
+    glTexCoord2f(1,1); glVertex3f(200.0, 200.0, 100.0);
+    glTexCoord2f(0,1); glVertex3f(-200.0, 200.0, 100.0);
+    glTexCoord2f(0,0); glVertex3f(-200.0, 200.0, 0.0);
+    glTexCoord2f(1,0); glVertex3f(200.0, 200.0, 0.0); */
     glEnd();
 }
