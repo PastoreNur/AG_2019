@@ -16,7 +16,7 @@ GLuint texture[0];
 void e_suelo(){
     texture[0] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
             (
-                    "../grama.jpg",
+                    "../cesped.bmp",
                     SOIL_LOAD_AUTO,
                     SOIL_CREATE_NEW_ID,
                     SOIL_FLAG_MIPMAPS | SOIL_FLAG_INVERT_Y | SOIL_FLAG_NTSC_SAFE_RGB | SOIL_FLAG_COMPRESS_TO_DXT
@@ -43,15 +43,15 @@ void e_suelo(){
 }
 
 void e_callep(){
-    texture[0] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
+    texture[1] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
             (
-                    "/grama.jpg",
+                    "../wood.bmp",
                     SOIL_LOAD_AUTO,
                     SOIL_CREATE_NEW_ID,
                     SOIL_FLAG_MIPMAPS | SOIL_FLAG_INVERT_Y | SOIL_FLAG_NTSC_SAFE_RGB | SOIL_FLAG_COMPRESS_TO_DXT
             );
     //glColor3f(0.9f, 0.9f, 0.9f);
-    glBindTexture(GL_TEXTURE_2D, texture[0]);
+    glBindTexture(GL_TEXTURE_2D, texture[1]);
     glTexEnvi(GL_TEXTURE_ENV,GL_TEXTURE_ENV_MODE,GL_COMBINE);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
@@ -72,15 +72,15 @@ void e_callep(){
 }
 
 void e_parqueo1(){
-    texture[0] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
+    texture[2] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
             (
-                    "/grama.jpg",
+                    "../pavimento.jpg",
                     SOIL_LOAD_AUTO,
                     SOIL_CREATE_NEW_ID,
                     SOIL_FLAG_MIPMAPS | SOIL_FLAG_INVERT_Y | SOIL_FLAG_NTSC_SAFE_RGB | SOIL_FLAG_COMPRESS_TO_DXT
             );
     //glColor3f(0.9f, 0.9f, 0.9f);
-    glBindTexture(GL_TEXTURE_2D, texture[0]);
+    glBindTexture(GL_TEXTURE_2D, texture[2]);
     glTexEnvi(GL_TEXTURE_ENV,GL_TEXTURE_ENV_MODE,GL_COMBINE);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
@@ -101,15 +101,15 @@ void e_parqueo1(){
 }
 
 void e_calleparqueo1(){
-    texture[0] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
+    texture[3] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
             (
-                    "/grama.jpg",
+                    "/..cemento2.jpg",
                     SOIL_LOAD_AUTO,
                     SOIL_CREATE_NEW_ID,
                     SOIL_FLAG_MIPMAPS | SOIL_FLAG_INVERT_Y | SOIL_FLAG_NTSC_SAFE_RGB | SOIL_FLAG_COMPRESS_TO_DXT
             );
     //glColor3f(0.9f, 0.9f, 0.9f);
-    glBindTexture(GL_TEXTURE_2D, texture[0]);
+    glBindTexture(GL_TEXTURE_2D, texture[3]);
     glTexEnvi(GL_TEXTURE_ENV,GL_TEXTURE_ENV_MODE,GL_COMBINE);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
@@ -130,7 +130,7 @@ void e_calleparqueo1(){
 }
 
 void e_acera1(){
-    texture[0] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
+    texture[4] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
             (
                     "/grama.jpg",
                     SOIL_LOAD_AUTO,
@@ -159,9 +159,9 @@ void e_acera1(){
 }
 
 void e_acera2(){
-    texture[0] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
+    texture[5] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
             (
-                    "/grama.jpg",
+                    "../wood.bmp",
                     SOIL_LOAD_AUTO,
                     SOIL_CREATE_NEW_ID,
                     SOIL_FLAG_MIPMAPS | SOIL_FLAG_INVERT_Y | SOIL_FLAG_NTSC_SAFE_RGB | SOIL_FLAG_COMPRESS_TO_DXT
@@ -188,15 +188,15 @@ void e_acera2(){
 }
 
 void e_suelop(){
-    texture[0] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
+    texture[6] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
             (
-                    "/grama.jpg",
+                    "../cemento.jpg",
                     SOIL_LOAD_AUTO,
                     SOIL_CREATE_NEW_ID,
                     SOIL_FLAG_MIPMAPS | SOIL_FLAG_INVERT_Y | SOIL_FLAG_NTSC_SAFE_RGB | SOIL_FLAG_COMPRESS_TO_DXT
             );
     //glColor3f(0.9f, 0.9f, 0.9f);
-    glBindTexture(GL_TEXTURE_2D, texture[0]);
+    glBindTexture(GL_TEXTURE_2D, texture[6]);
     glTexEnvi(GL_TEXTURE_ENV,GL_TEXTURE_ENV_MODE,GL_COMBINE);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
@@ -216,7 +216,7 @@ void e_suelop(){
 }
 
 void e_acerapp(){
-    texture[0] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
+    texture[7] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
             (
                     "/grama.jpg",
                     SOIL_LOAD_AUTO,
@@ -245,7 +245,7 @@ void e_acerapp(){
 }
 
 void e_calleparqueo2(){
-    texture[0] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
+    texture[8] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
             (
                     "/grama.jpg",
                     SOIL_LOAD_AUTO,
@@ -274,7 +274,7 @@ void e_calleparqueo2(){
 }
 
 void e_parqueo2(){
-    texture[0] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
+    texture[9] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
             (
                     "/grama.jpg",
                     SOIL_LOAD_AUTO,
@@ -303,7 +303,7 @@ void e_parqueo2(){
 }
 
 void e_suelos(){
-    texture[0] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
+    texture[10] = SOIL_load_OGL_texture // load an image file directly as a new OpenGL texture
             (
                     "/grama.jpg",
                     SOIL_LOAD_AUTO,

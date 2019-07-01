@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nur/Descargas/AG_2019/include/Edificios/Edificios.cpp" "/home/nur/Descargas/AG_2019/cmake-build-debug/CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.o"
-  "/home/nur/Descargas/AG_2019/include/Fisicas/Fisicas.cpp" "/home/nur/Descargas/AG_2019/cmake-build-debug/CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.o"
-  "/home/nur/Descargas/AG_2019/main.cpp" "/home/nur/Descargas/AG_2019/cmake-build-debug/CMakeFiles/camara_basica.dir/main.cpp.o"
+  "/home/miguel/Escritorio/AG_2019/include/Edificios/Edificios.cpp" "/home/miguel/Escritorio/AG_2019/cmake-build-debug/CMakeFiles/camara_basica.dir/include/Edificios/Edificios.cpp.o"
+  "/home/miguel/Escritorio/AG_2019/include/Fisicas/Fisicas.cpp" "/home/miguel/Escritorio/AG_2019/cmake-build-debug/CMakeFiles/camara_basica.dir/include/Fisicas/Fisicas.cpp.o"
+  "/home/miguel/Escritorio/AG_2019/main.cpp" "/home/miguel/Escritorio/AG_2019/cmake-build-debug/CMakeFiles/camara_basica.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

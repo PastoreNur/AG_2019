@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/nur/Descargas/AG_2019/cmake-build-debug"/>
+				<Option working_dir="/home/miguel/Escritorio/AG_2019/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/nur/Descargas/AG_2019/cmake-build-debug"/>
+				<Option working_dir="/home/miguel/Escritorio/AG_2019/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="camara_basica">
-				<Option output="/home/nur/Descargas/AG_2019/cmake-build-debug/camara_basica" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/nur/Descargas/AG_2019/cmake-build-debug"/>
+				<Option output="/home/miguel/Escritorio/AG_2019/cmake-build-debug/camara_basica" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/miguel/Escritorio/AG_2019/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -46,15 +46,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 camara_basica"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 camara_basica"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="camara_basica/fast">
-				<Option output="/home/nur/Descargas/AG_2019/cmake-build-debug/camara_basica" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/nur/Descargas/AG_2019/cmake-build-debug"/>
+				<Option output="/home/miguel/Escritorio/AG_2019/cmake-build-debug/camara_basica" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/miguel/Escritorio/AG_2019/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,39 +71,39 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 camara_basica/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 camara_basica/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/nur/Descargas/AG_2019/cmake-build-debug"/>
+				<Option working_dir="/home/miguel/Escritorio/AG_2019/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/nur/Descargas/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/miguel/Escritorio/AG_2019/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/nur/Descargas/AG_2019/include/Edificios/Edificios.cpp">
+		<Unit filename="/home/miguel/Escritorio/AG_2019/include/Edificios/Edificios.cpp">
 			<Option target="camara_basica"/>
 		</Unit>
-		<Unit filename="/home/nur/Descargas/AG_2019/include/Edificios/Edificios.h">
+		<Unit filename="/home/miguel/Escritorio/AG_2019/include/Edificios/Edificios.h">
 			<Option target="camara_basica"/>
 		</Unit>
-		<Unit filename="/home/nur/Descargas/AG_2019/include/Fisicas/Fisicas.cpp">
+		<Unit filename="/home/miguel/Escritorio/AG_2019/include/Fisicas/Fisicas.cpp">
 			<Option target="camara_basica"/>
 		</Unit>
-		<Unit filename="/home/nur/Descargas/AG_2019/include/Fisicas/Fisicas.h">
+		<Unit filename="/home/miguel/Escritorio/AG_2019/include/Fisicas/Fisicas.h">
 			<Option target="camara_basica"/>
 		</Unit>
-		<Unit filename="/home/nur/Descargas/AG_2019/main.cpp">
+		<Unit filename="/home/miguel/Escritorio/AG_2019/main.cpp">
 			<Option target="camara_basica"/>
 		</Unit>
-		<Unit filename="/home/nur/Descargas/AG_2019/CMakeLists.txt">
+		<Unit filename="/home/miguel/Escritorio/AG_2019/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
