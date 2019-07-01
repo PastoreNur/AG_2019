@@ -101,8 +101,8 @@ int main(int argc, char *argv[]) {
     exit(EXIT_SUCCESS);
 }
 
+//funcion para imprimir numero en pantalla
 int numero = 0;
-
 void number(double a){
     char text[255];
     //sprintf(text, "X:%.0f Y:%.0f", xrot, yrot);
